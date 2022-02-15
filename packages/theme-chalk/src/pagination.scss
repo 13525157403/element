@@ -218,8 +218,9 @@
       }
 
       &.active {
-        background-color: $--color-primary;
-        color: $--color-white;
+        background: #ebecef;
+box-shadow: inset 5px 5px 6px #dfe0e3,
+            inset -5px -5px 6px #f7f8fb;
       }
     }
 

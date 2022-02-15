@@ -7,6 +7,11 @@
     <main-footer v-if="lang !== 'play' && !isComponent"></main-footer>
   </div>
 </template>
+<style lang="scss">
+.main-cnt{
+  background-color: rgb(235,236,239);
+}
+</style>
 
 <script>
   import { use } from 'main/locale';

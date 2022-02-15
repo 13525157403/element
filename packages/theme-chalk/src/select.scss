@@ -11,7 +11,6 @@
 @include b(select) {
   display: inline-block;
   position: relative;
-
   .el-select__tags
     >span {
       display: contents;
@@ -24,9 +23,12 @@
   }
 
   .el-input__inner {
+    border: none;
     cursor: pointer;
     padding-right: 35px;
-
+    background: #ebecef;
+    box-shadow:  8px 8px 8px #e2e3e5,
+             -8px -8px 8px #f4f5f9;
     &:focus {
       border-color: $--select-input-focus-border-color;
     }
@@ -62,15 +64,15 @@
       & .el-input__inner {
         cursor: not-allowed;
 
-        &:hover {
-          border-color: $--select-disabled-border;
-        }
+        // &:hover {
+        //   border-color: $--select-disabled-border;
+        // }
       }
     }
 
-    &.is-focus .el-input__inner {
-      border-color: $--select-input-focus-border-color;
-    }
+    // &.is-focus .el-input__inner {
+    //   border-color: $--select-input-focus-border-color;
+    // }
   }
 
   > .el-input {
@@ -139,9 +141,9 @@
       color: $--color-white;
       flex-shrink: 0;
 
-      &:hover {
-        background-color: $--color-text-secondary;
-      }
+      // &:hover {
+      //   background-color: $--color-text-secondary;
+      // }
 
       &::before {
         display: block;

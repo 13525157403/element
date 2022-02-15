@@ -308,11 +308,13 @@
           </slot>
 
         </router-link></h1>
-
+        
         <!-- nav -->
         <ul class="nav">
           <li class="nav-item nav-algolia-search" v-show="isComponentPage">
-            <algolia-search></algolia-search>
+            <el-input2 placeholder="" size="small"></el-input2>
+            <!-- <algolia-search></algolia-search> -->
+           
           </li>
           <li class="nav-item">
             <router-link

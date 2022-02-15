@@ -6,10 +6,10 @@
   position: relative;
   display: inline-block;
   text-align: left;
-
   &.el-input,
   &.el-input__inner {
     width: 220px;
+    border: none;
   }
 
   @include m((monthrange)) {
@@ -97,6 +97,7 @@
     display: inline-flex;
     align-items: center;
     padding: 3px 10px;
+    
   }
 
   .el-range-input {

@@ -1,6 +1,11 @@
 @import "mixins/mixins";
 @import "common/var";
-
+.el-input2 .el-input__inner2 {
+  border-radius: 100px;
+  border: none;
+  background: #ebecef;
+  box-shadow: inset 5px 5px 10px #cfd0d2, inset -5px -5px 10px #ffffff;
+}
 @include b(textarea) {
   position: relative;
   display: inline-block;
@@ -196,7 +201,7 @@
       border-color: $--input-disabled-border;
       color: $--input-disabled-color;
       cursor: not-allowed;
-
+      
       &::placeholder {
         color: $--input-disabled-placeholder-color;
       }
@@ -337,6 +342,7 @@
       border-bottom-left-radius: 0;
     }
     .el-select .el-input.is-focus .el-input__inner {
+      
       border-color: transparent;
     }
   }
@@ -358,3 +364,4 @@
   width: 0;
   height: 0;
 }
+
