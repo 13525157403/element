@@ -6,7 +6,10 @@
   "plugins": ["html", "json"],
   "extends": "elemefe",
   "rules": {
-    "no-restricted-globals": ["error", "event", "fdescribe"]
+    "no-restricted-globals": ["error", "event", "fdescribe"],
+    "quotes":"off",
+    "semi":"off",
+    "comma-dangle":"off"
   },
   "parserOptions": {
     "ecmaVersion": 6,

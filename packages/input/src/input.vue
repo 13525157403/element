@@ -1,7 +1,6 @@
 <template>
   <div :class="[
     type === 'textarea' ? 'el-textarea' : 'el-input',
-    'el-input2',
     inputSize ? 'el-input--' + inputSize : '',
     {
       'is-disabled': inputDisabled,
@@ -24,7 +23,7 @@
       <input
         :tabindex="tabindex"
         v-if="type !== 'textarea'"
-        class="el-input__inner el-input__inner2"
+        class="el-input__inner"
         v-bind="$attrs"
         :type="showPassword ? (passwordVisible ? 'text': 'password') : type"
         :disabled="inputDisabled"

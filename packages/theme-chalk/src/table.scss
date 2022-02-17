@@ -3,7 +3,6 @@
 @import "tag";
 @import "tooltip";
 @import "common/var";
-
 @include b(table) {
   position: relative;
   overflow: hidden;
@@ -290,8 +289,8 @@
     }
 
     th.el-table__cell.gutter:last-of-type {
-      border-bottom: $--table-border;
-      border-bottom-width: 1px;
+      // border-bottom: $--table-border;
+      // border-bottom-width: 1px;
     }
 
     & th.el-table__cell {

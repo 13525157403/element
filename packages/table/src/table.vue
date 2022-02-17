@@ -25,7 +25,7 @@
         :border="border"
         :default-sort="defaultSort"
         :style="{
-          width: layout.bodyWidth ? layout.bodyWidth + 'px' : ''
+          width: layout.bodyWidth ? layout.bodyWidth + 'px' : '',
         }">
       </table-header>
     </div>

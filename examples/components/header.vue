@@ -312,6 +312,7 @@
         <!-- nav -->
         <ul class="nav">
           <li class="nav-item nav-algolia-search" v-show="isComponentPage">
+            <!-- <el-input placeholder=""></el-input> -->
             <el-input2 placeholder="" size="small"></el-input2>
             <!-- <algolia-search></algolia-search> -->
            
