@@ -10,3 +10,21 @@
 @import "./input.scss";
 @import "./scrollbar.scss";
 @import "./popper";
+
+.el-icon-arrow-down,
+.el-icon-arrow-up {
+  margin-right: 10px;
+}
+.el-date-editor2 {
+  background: #ebecef;
+  border-radius: 100px;
+  box-shadow: inset 5px 5px 6px #dfe0e3, inset -5px -5px 6px #f7f8fb;
+}
+
+.el-date-editor2 .el-icon-arrow-down,
+.el-date-editor2 .el-icon-arrow-up {
+    margin-right: 0px;
+  }
+.el-date-editor2 .el-range-input2 {
+    background: #ebecef;
+  }

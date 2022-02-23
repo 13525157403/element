@@ -194,7 +194,9 @@
     .btn-next,
     .el-pager li {
       margin: 0 5px;
-      background-color: $--color-info-lighter;
+      background: #ebecef;
+box-shadow:  5px 5px 9px #d1d2d5,
+             -5px -5px 9px #ffffff;
       color: $--color-text-regular;
       min-width: 30px;
       border-radius: 2px;
@@ -218,6 +220,7 @@
       }
 
       &.active {
+        color: $--pagination-hover-color;
         background: #ebecef;
 box-shadow: inset 5px 5px 6px #dfe0e3,
             inset -5px -5px 6px #f7f8fb;
